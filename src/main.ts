@@ -5,7 +5,7 @@ import { provideRouter, Routes } from '@angular/router';
 import { environment } from './environments/environment';
 import { AppComponent } from './app/app.component';
 
-const routes = [
+const routes: Routes = [
   {
     path: 'feedback-and-chat',
     loadComponent: () =>
